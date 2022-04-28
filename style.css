@@ -1,0 +1,424 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 130%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.active, nav ul li:hover
+{
+	background: transparent;
+	border-radius: 10px;
+}
+
+nav ul li:hover{
+	color: aqua;
+	border-radius: 10px;
+}
+
+.product-a
+{
+	display: none;
+}
+
+.navbar ul li:hover .product-a
+{
+	display: block;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -5px;
+}
+
+.navbar ul li:hover .product-a ul
+{
+	display: block;
+	margin: 0px;
+}
+
+.navbar ul li:hover .product-a ul li
+{
+	width: 150px;
+	padding: 10px;
+	background: transparent;
+	text-align: left;
+}
+
+.navbar ul li:hover .product-a ul li
+{
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	background: transparent;
+    color: white;
+}
+
+.loginbtn:hover{
+	background-color: black;
+	color: aqua;
+	border-radius: 10px;
+}
+
+ul li a:hover{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul 
+{
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+    color: white;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+    color: white;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    color: white;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:#777;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+	position: absolute;
+	padding-left: 40px;
+}
+.content h1
+{
+    width: 160px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .par
+{
+	padding-left: 20px;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	margin-top: 4%;
+}
+.aboutus-a
+{
+	display: none;
+}
+
+.navbar ul li:hover .aboutus-a
+{
+	display: block;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -5px;
+}
+
+.navbar ul li:hover .aboutus-a ul
+{
+	display: block;
+	margin: 0px;
+}
+
+.navbar ul li:hover .aboutus-a ul li
+{
+	width: 150px;
+	padding: 10px;
+	background: transparent;
+	text-align: left;
+}
+
+.navbar ul li:hover .aboutus-a ul li
+{
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	background: transparent;
+    color: white;
+}
+.content-2{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+	position: absolute;
+	padding-left: 40px;
+}
+.content-2 h1
+{
+    width: 160px;
+    height: 40px;
+    padding-left: 270px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content-2 .par-2
+{
+	padding-left: 270px;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	margin-top: 4%;
+}
+.form-box-2
+{
+    width:380px;
+	height:480px;
+	position:absolute;
+	margin:2% auto;
+	padding:10px;
+    overflow: hidden;
+	margin-left: 50%;
+}
+.box-type
+{
+	width:500px;
+	padding:20px;
+	margin:auto;
+	font-size:20px;
+	margin-top:13%;
+}
+input[type=text]
+{
+	width: 100%;
+	padding: 5px;
+	font-size: 17px;
+}
+input[type=email]
+{
+	width: 100%;
+	padding: 5px;
+	font-size: 17px;
+}
+textarea
+{
+	width:500px;
+	font-size: 17px;
+	margin: auto;
+}
+input[type=submit]
+{
+	width:100px;
+	height:40px;
+}
+.c-mission
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+	position: absolute;
+	padding-left: 40px;
+}
+.c-mission h1
+{
+    width: 160px;
+    height: 40px;
+    padding-left: 270px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.c-mission .par-3
+{
+	padding-left: 270px;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	margin-top: 1%;
+}
+.c-vision
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+	position: absolute;
+	padding-left: 40px;
+}
+.c-vision h1
+{
+    width: 160px;
+    height: 40px;
+    padding-left: 270px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.c-vision .par-4
+{
+	padding-left: 270px;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	margin-top: 1%;
+}
